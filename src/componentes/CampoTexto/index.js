@@ -4,7 +4,6 @@ const CampoTexto = (props) => {
 
 const aoDigitar = (evento) => {
     props.aoAlterar(evento.target.value)
-    console.log(props.valor)
 }
     
 return (
